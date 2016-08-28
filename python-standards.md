@@ -43,7 +43,7 @@ The shebang we use is: `#!/usr/bin/env python`
 ## Coding Style
 
 ### Indentation & Whitespace
-* Set your tabs to be 2 spaces *
+* Set your tabs to be 2 spaces.
 * Use 2 spaces per indentation level.
 * **Never mix tabs and spaces!**
 * Don't leave whitespace at the end of lines.
@@ -200,48 +200,6 @@ Along with other comments, use gotcha keywords to mark unfinished tasks in the c
     * Means there's more to do here, don't forget.
   * **FIXME: topic**
     * Means there's a known bug here, explain it and optionally give a trac id
-
-## License
-
-### FIFE Python header
-
-```py
-# -*- coding: utf-8 -*-
-
-# ####################################################################
-#  Copyright (C) 2005-2013 by the FIFE team
-#  http://www.fifengine.net
-#  This file is part of FIFE.
-#
-#  FIFE is free software; you can redistribute it and/or
-#  modify it under the terms of the GNU Lesser General Public
-#  License as published by the Free Software Foundation; either
-#  version 2.1 of the License, or (at your option) any later version.
-#
-#  This library is distributed in the hope that it will be useful,
-#  but WITHOUT ANY WARRANTY; without even the implied warranty of
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-#  Lesser General Public License for more details.
-#
-#  You should have received a copy of the GNU Lesser General Public
-#  License along with this library; if not, write to the
-#  Free Software Foundation, Inc.,
-#  51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
-# ####################################################################
-```
-
-### Borrowing code
-
-* If you directly copy and paste code from another project the original copyright header needs to stay in place! Don't add a FIFE header to the file in this case.
-* If you used portions of code from other projects and integrated it into project files, add the FIFE header at the top of the file but add an additional remark after it that states the origin of the copied code parts.
-* You can use this example as a template in this case:
-
-```
-# ###########################################################################
-#  Note! FIFE event channel borrows heavily from ideas of Guichan library
-#  version 0.6                                                            
-# ###########################################################################
-```
 
 ## References
 * [Style Guide for Python code](http://www.python.org/dev/peps/pep-0008/)
