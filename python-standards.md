@@ -77,7 +77,8 @@ The shebang we use is: `#!/usr/bin/env python`
 ### Functions
 
 * Keep your functions simple.
-* One soft guideline is to keep functions less than 20 lines long, definitely less than 100 though. *
+* One soft guideline is to keep functions less than 20 lines long, definitely less than 100 though.
+
 ### Arguments
 
 Avoid using boolean parameters and if you need them, supply as keywords arguments. If you use them and you can supply the as positional arguments - don't. The rationale here is that the meaning of boolean arguments is very difficult to see for the reader otherwise:
