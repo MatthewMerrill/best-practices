@@ -8,6 +8,10 @@
 
 *Read [here](/git.md).**
 
+##**REST API Guideline/How-to**
+
+*Read [here](/API-REST.md).**
+
 ##**JavaScript Coding Standards**
 
 *Coming Soon![here](/js-standards.md).**
